@@ -1,0 +1,98 @@
+.add-user-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+    background-color: #f5f5f5;
+}
+
+.add-user-card {
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 600px;
+    overflow: hidden;
+}
+
+.add-user-header {
+    background-color: #001f3f;
+    color: white;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.add-user-title {
+    margin: 0;
+    font-size: 1.25rem;
+}
+
+.add-user-back-btn {
+    background: transparent;
+    border: 1px solid white;
+    color: white;
+    padding: 5px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    transition: all 0.3s ease;
+}
+
+.add-user-back-btn:hover {
+    background: white;
+    color: #001f3f;
+}
+
+.add-user-body {
+    padding: 20px;
+}
+
+.add-user-form-group {
+    margin-bottom: 15px;
+}
+
+.add-user-form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+    font-weight: 500;
+}
+
+.add-user-form-group input,
+.add-user-form-group select {
+    width: 100%;
+    padding: 8px 12px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 0.9rem;
+}
+
+.add-user-form-group input:focus,
+.add-user-form-group select:focus {
+    border-color: #001f3f;
+    outline: none;
+    box-shadow: 0 0 0 2px rgba(0, 31, 63, 0.1);
+}
+
+.add-user-footer {
+    padding-top: 10px;
+}
+
+.add-user-save-btn {
+    background-color: #001f3f;
+    color: white;
+    border: none;
+    padding: 8px 25px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    transition: background-color 0.3s ease;
+    width: 100%;
+}
+
+.add-user-save-btn:hover {
+    background-color: #003366;
+}
